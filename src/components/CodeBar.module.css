@@ -1,0 +1,39 @@
+.codebar {
+  width: 600px;
+  background: #222;
+  position: relative;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  padding: 20px 15px;
+  gap: 15px;
+  border-bottom: 3px solid #333;
+}
+
+.item {
+  display: flex;
+  height: 50px;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.activeTab {
+  background: rgb(36, 86, 151);
+  color: #fff;
+}
+
+.editor {
+  height: calc(100% - 70px) !important;
+  padding: 10px;
+}
